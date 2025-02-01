@@ -2,7 +2,7 @@
 title: First Post For This Blog
 published: 2025-02-01
 description: 'Need to test this blog'
-image: '../assts/images/banner.jpg'
+image: '../../assets/images/banner.jpg'
 tags: ["Blogging", "Customization"]
 category: Personal
 draft: false 
