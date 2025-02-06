@@ -1,8 +1,6 @@
 # DawnProspect's Personal Blog
 
-## 📖 About
-
-Berikut adalah versi yang sedikit lebih halus dan natural dalam bahasa Inggris:
+### 📖 About
 
 Hello!
 
@@ -13,7 +11,7 @@ Here, I mostly write about my learning experiences, share thoughts, and document
 Feel free to explore and read around. Thanks for stopping by!. 🚀
 
 
-## Blog Template
+### Blog Template
 
 In case if you are interersted in the template that i used for this blog, you can find it here:
 
