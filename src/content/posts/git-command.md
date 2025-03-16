@@ -14,7 +14,7 @@ lang: ''
 In my opinion, to contribute a lot of code either for your own project or for someone else's project, you really need to know how to use git commands. So this is the reason why i made this page to remind myself every git commands i've learned so far. If i learned something new about git commands, i will update this page.
 
 
-1. **git config**
+### 1. **git config**
 
 When you first install git, it's important to setup and configure your git so it understands who you are when working with git. You can do this by going to your terminal and run this command:
 
@@ -45,7 +45,7 @@ git config --list
 
 ```
 
-2. **git init**
+### 2. **git init**
 
 This command is used to create an empty git repository or reinitialize an existing one.
 
@@ -63,7 +63,7 @@ git init
 
 this command will create hidden folder called .git inside your project folder and it will save all your important data to track changes in your project.
 
-3. **git status**
+### 3. **git status**
 
 This command is used to check the status of your git repository.
 
@@ -75,7 +75,7 @@ git status
 
 if there is some untracked files, git will show you the list of files that are not being tracked by git.
 
-4. **git add**
+### 4. **git add**
 
 There are few ways to use git commands.
 
@@ -112,7 +112,7 @@ this will add userModel.js to the staging area
 
 > Think of git add as telling git "okay please keep track of this file in its current state". if you make changes to the file, then you need to use git add again to keep track of those newer changes.
 
-5. **git commit**
+### 5. **git commit**
 
 this command is used to savve the changes you made inside your project folder into the repository git with a short message that describes what you did.
 
@@ -130,7 +130,7 @@ git commit -m "Add new function to userModel.js"
 
 ```
 
-6. **git clone**
+### 6. **git clone**
 
 This command will be used when you want to clone a project folder that you need to make changes to.
 
@@ -158,7 +158,7 @@ git clone https://github.com/username/project-name.git
 
 f. Press enter and once you see done, now you have the project folder in your computer.
 
-7. **git branch**
+### 7. **git branch**
 
 it is important to add changes to a new branch instead of the main branch. A branch in git repository is like a separate version of a document so you didn't mess up with the original.
 
@@ -212,7 +212,7 @@ git push -delete origin branch-name
 
 ```
 
-8. **git push**
+### 8. **git push**
 
 This command tells git thanks for tracking these file changes, now i want to upload these changes to the main project file. You are essentially pushing your changes to the main project file.
 
@@ -232,7 +232,7 @@ git push origin feat/add-new-function
 
 once you push your changes, you can go to github and see there is a new branch available to merge.
 
-9. **git pull**
+### 9. **git pull**
 
 Lets say your team merge the update the main branch with the changes you have made while also they made some changes and merge it to the main branch. That means you need to update your local repository with the changes that they have made so it will be up to date with the main branch that your team is working on. You can do this by using this command:
 
@@ -253,7 +253,9 @@ git pull origin develop
 ```
 
 
-Github Flow
+### Proper Github Flow
+
+(need to update this github flow)
 
 - git clone
 
