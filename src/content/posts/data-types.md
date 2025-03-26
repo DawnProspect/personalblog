@@ -14,7 +14,7 @@ OVERVIEW
 
 8 Types of Data
 
-1. Number
+1. NUMBER
 2. BIGINT
 3. STRING
 4. BOOLEAN
@@ -22,3 +22,5 @@ OVERVIEW
 6. UNDEFINED VALUE
 7. OBJECTS AND SYMBOLS
 8. TYPEOF OPERATOR
+
+So far i learn a lot of different data types, they are mostly from odin-project and google documentation where i try to understand them. In order to understand it more (making sure i understand it) i will make this article but in my own words, in a sense that if i can explain it by myself then atleast i understand half of it, but this article will also set as a reminder for me in case i need to study it again.
