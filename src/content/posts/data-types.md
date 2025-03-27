@@ -24,3 +24,20 @@ OVERVIEW
 8. TYPEOF OPERATOR
 
 So far i learn a lot of different data types, they are mostly from odin-project and google documentation where i try to understand them. In order to understand it more (making sure i understand it) i will make this article but in my own words, in a sense that if i can explain it by myself then atleast i understand half of it, but this article will also set as a reminder for me in case i need to study it again.
+
+
+1. NUMBER
+
+Number type bisa representasi integer dan floating point numbers
+
+misalnya
+
+let n = 123
+
+n = 12.345
+
+Lalu banyak operations untuk angka juga seperti multiplication *, division /, addition +, subtraction -, 
+
+Di tipe data ini juga ada namanya special numeric values yaitu Infinity, -Infinity, dan NaN
+
+- Infinity: merepresentasikan infinity dari matematika yang memiliki value lebih besar dari angka berapapun
