@@ -1,18 +1,16 @@
 ---
 title: Data Types in JavaScript
-published: 2022-24-01
+published: 2025-03-04
 tags: ["ZeroToDev", "JavaScript"]
 category: DevNotes
 draft: true
 ---
 
-# This Article is a Draft
-
-This article is currently in a draft state and is not published. Therefore, it will not be visible to the general audience. The content is still a work in progress and may require further editing and review.
+# Data Types
 
 OVERVIEW
 
-8 Types of Data
+7 Types of Data
 
 1. NUMBER
 2. BIGINT
@@ -21,23 +19,124 @@ OVERVIEW
 5. NULL VALUE
 6. UNDEFINED VALUE
 7. OBJECTS AND SYMBOLS
-8. TYPEOF OPERATOR
+
+Primitive Types:
+
+- Number
+
+- BigInt
+
+- String
+
+- Boolean
+
+- Undefined
+
+- Null
+
+- Symbol
+
+Non-Primitive Type:
+
+- Object
+
 
 So far i learn a lot of different data types, they are mostly from odin-project and google documentation where i try to understand them. In order to understand it more (making sure i understand it) i will make this article but in my own words, in a sense that if i can explain it by myself then atleast i understand half of it, but this article will also set as a reminder for me in case i need to study it again.
 
+Note: I will put easy referal links in case i want to study it again.
 
-1. NUMBER
+TYPEOF OPERATOR is used to determine the type of a value, this can be useful if you try to check what type of data you want to see.
 
-Number type bisa representasi integer dan floating point numbers
+You can use TYPEOF to check if you want.
 
-misalnya
+```js
+
+console.log(typeof 123);          // "number"
+console.log(typeof "hello");      // "string"
+console.log(typeof true);         // "boolean"
+console.log(typeof undefined);    // "undefined"
+console.log(typeof null);         // "object"
+console.log(typeof Symbol());     // "symbol"
+console.log(typeof {});           // "object"
+console.log(typeof function(){}); // "function"
+
+```
+
+
+## 1. NUMBER
+
+Number type can represent both integer and floating point numbers, for example:
+
+```js
 
 let n = 123
 
 n = 12.345
 
-Lalu banyak operations untuk angka juga seperti multiplication *, division /, addition +, subtraction -, 
+```
+There are many operations for numbers, for e.g
 
-Di tipe data ini juga ada namanya special numeric values yaitu Infinity, -Infinity, dan NaN
+- Multiplication (*)
 
-- Infinity: merepresentasikan infinity dari matematika yang memiliki value lebih besar dari angka berapapun
+- Division (/)
+
+- Addition (+)
+
+- Subtraction (-)
+
+In Number Type data there are also special numeric values, they are Infinity, -Infinity, and NaN
+
+- Infinity: Represents infinty from maths that has value bigger than any number
+
+- -Infinity: The value is the opposing of Infinity, which has negative value bigger than any number
+
+e.g 
+
+```js
+
+alert( 1 / 0 ) // Result will be Infinity
+
+OR
+
+alert( Infinity ) // Result will be Infinity
+
+OR
+
+console.log(-1 / 0); // Output: -Infinity
+
+```
+
+- NaN: NaN gives a sign that there is a computational error, because the result of an operation is wrong or undefined
+
+e.g
+
+```js
+
+alert ( "Not a number" / 2 ) // The result will be NaN because the operation is invalid or undefined
+
+```
+
+Though JavaScript do provides method to convert string to numbers, for e.g
+
+```js
+
+console.log(Number("123")); // Output: 123
+console.log(Number("123abc")); // Output: NaN
+
+console.log(parseInt("123abc")); // Output: 123
+console.log(parseFloat("123.45abc")); // Output: 123.45
+
+
+```
+
+## 2. BIGINT
+
+
+BigInt can store integer with many digits, but not all integer can store all digits, BigInt usually is used for crpytography or timestamps that requires counting untul microsecond
+
+```js
+
+// the "n" at the end means it's a BigInt
+const bigInt = 1234567890123456789012345678901234567890n;
+
+```
