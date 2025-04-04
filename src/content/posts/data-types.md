@@ -132,11 +132,23 @@ console.log(parseFloat("123.45abc")); // Output: 123.45
 ## 2. BIGINT
 
 
-BigInt can store integer with many digits, but not all integer can store all digits, BigInt usually is used for crpytography or timestamps that requires counting untul microsecond
+BigInt is a special type of integer in JavaScript that can store large integers beyond the safe limit of the regular Number type (which is ±(2^53 - 1)). Commonly used in data that requires extremely large numbers like cryptography, precise calculations, and timestamps in nanoseconds or microseconds
+
+- To create a BigInt, simply use n at the end of a number
+- Mathematical operations with BigInt can be performed with other BigInt, not with regular numbers to avoid errors
+
 
 ```js
 
 // the "n" at the end means it's a BigInt
 const bigInt = 1234567890123456789012345678901234567890n;
+
+// Regular number has limitations
+console.log(Number.MAX_SAFE_INTEGER); 
+// Output: 9007199254740991
+
+// Exceeding the safe limit with regular number
+console.log(9007199254740991 + 1); 
+// Output: 9007199254740992 (Incorrect due to precision loss)
 
 ```
