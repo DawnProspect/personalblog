@@ -152,3 +152,33 @@ console.log(9007199254740991 + 1);
 // Output: 9007199254740992 (Incorrect due to precision loss)
 
 ```
+
+## 3. STRING
+
+
+## 4. BOOLEAN
+
+Boolean type has two values and they are tru and false, true means its correct, yes, or active. While false is incorrect, no, or inactive.
+
+for e.g
+
+```js
+let nameFieldChecked = true // this meant field called name is already checked, hence it has value true
+
+let ageFieldChecked = false // this meant field called age has not been checked yet, so its considered false
+
+```
+
+Boolean also usually used for comparisons, logic, decision-making, and condition checking.
+
+```js
+
+let isGreater = 4 > 1
+
+console.log(isGreater) // the result should be true because 4 is bigger than 1
+
+console.log(10 === 10); // true
+
+console.log(5 < 3);     // false
+
+```
