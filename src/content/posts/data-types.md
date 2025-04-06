@@ -182,3 +182,19 @@ console.log(10 === 10); // true
 console.log(5 < 3);     // false
 
 ```
+
+
+## 5. NULL
+
+Null is a special value that represents nothing, empty, or unknown. it is a primitive type but unlike other types, it has only one possible value and that is null.
+
+Mostly often used to intentionally clear a variable or show a value is unknown or missing in purpose.
+
+
+```js
+
+let age = null
+
+// age will be null
+
+```
