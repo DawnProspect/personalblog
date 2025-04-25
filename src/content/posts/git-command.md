@@ -252,6 +252,28 @@ git pull origin develop
 
 ```
 
+### 10. **git commit (on custom time)**
+
+Let's say you actually commit something in the past but github somehow didn't get the commit or maybe you forgot to commit yourself yesterday, you can use this git command to actually commit in the past. Sadly, it will only record as one commit but atleast it actually works.
+
+
+This is the command:
+
+```
+
+git commit --date="YYYY-MM-DD HH:MM:SS" -m "Your commit message here"
+
+```
+
+The example of using the command:
+
+```
+
+git commit --date='2025-01-21 11:15:00' -m "feat: add login feature"
+
+```
+
+
 
 ### Proper Github Flow
 
