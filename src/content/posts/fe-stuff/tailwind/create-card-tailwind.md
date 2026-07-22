@@ -2,7 +2,7 @@
 title: How To Create Cards Using Tailwind (From Zero)
 published: 2026-07-22
 tags: ["ZeroToDev", "CSS", "Tailwind", "Style", "Card"]
-category: DevNotes
+category: Tailwind
 draft: false
 ---
 
